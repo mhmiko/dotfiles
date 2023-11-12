@@ -1,0 +1,51 @@
+* {
+  transition: 0.1s;
+  color: #d4be98;
+}
+#window {
+  background: #282828;
+}
+#input {
+  margin: 10px 10px 20px 10px;
+  padding: 15px;
+  background-color: #141617;
+  color: #d4be98;
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+}
+#input:focus {
+  outline-color: #ea6962;
+  box-shadow: none;
+  border: none;
+}
+#outer-box {
+  padding: 10px;
+  color: #000;
+  font-family: 'Noto Sans';
+  
+  font-size: 15px;
+}
+expander {
+  color: #292929;
+}
+#entry {
+  margin: 0 10px;
+  padding: 10px;
+  color: #282828;
+}
+#entry:selected {
+  background-color: #d4be98;
+  color: #d4be98;
+}
+
+#text {
+  color: #d4be98;
+}
+
+#text:selected {
+  color: #282828;
+}
+#entry:hover {
+  color: #282828;
+}

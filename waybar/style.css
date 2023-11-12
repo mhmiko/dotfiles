@@ -1,0 +1,129 @@
+@define-color bg #1d2021;
+@define-color fg #d4be98;
+@define-color fg-light #ddc7a1;
+@define-color red #ea6962;
+@define-color orange #e78a4e;
+@define-color yellow #d8a657;
+@define-color green #a9b665;
+@define-color aqua #89b482;
+@define-color blue #7daea3;
+@define-color purple #d3869b;
+
+
+
+* {
+  min-height: 0;
+  border-radius: 0;
+  font-family: "SF Pro", "Lilex Nerd Font";
+  font-size: 10pt;
+  /* font-weight: 500; */
+}
+
+tooltip {
+  background: @bg;
+}
+
+window#waybar {
+  background-color: transparent;
+  color: @red;
+}
+
+window#waybar.solo {
+  background-color: @bg;
+  color: @red;
+}
+
+/*
+window#waybar.solo #workspaces button {
+  border-radius: 5px;
+}
+*/
+
+/*
+#mode {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+  background-color: @bg;
+  color: @red;
+}
+*/
+
+#network {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0 0 0 7px;
+  background-color: #3c3836;
+  color: @fg;
+}
+/* #network.wifi, */
+/* #network.ethernet { */
+/*   color: @green; */
+/* } */
+#network.linked {
+  color: @fg;
+}
+#network.disconnected,
+#network.disabled {
+  color: @red;
+}
+
+#pulseaudio,
+#cpu {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: @fg;
+  background-color: #282828;
+}
+#memory,
+#temperature,
+#backlight,
+#battery {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: @fg;
+  background-color: #3c3836;
+  border-radius: 0 0 7px 0;
+}
+
+#custom-playerctl {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 0 0 7px 7px;
+  color: @fg;
+  background-color: @bg;
+}
+
+#custom-notifications {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: @fg;
+  background-color: @bg;
+}
+
+#pulseaudio.muted {
+  background-color: @bg;
+  color: @red;
+}
+
+#clock {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: @fg;
+  background-color: #282828;
+}
+
+#workspaces {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #1d2021;
+}
+
+#workspaces button {
+  color: @fg;
+}
+
+#workspaces button.active {
+  color: @blue;
+}
+/* bottom waybar */
