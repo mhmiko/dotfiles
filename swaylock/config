@@ -1,5 +1,5 @@
 ignore-empty-password
-font=NotoSans Mono
+#font=NotoSans Mono
 #font-size=150
 
 clock
@@ -15,19 +15,19 @@ indicator-radius=300
 indicator-thickness=10
 indicator-caps-lock
 
-key-hl-color=d4be98ff
+key-hl-color=fce8c3ff
 
 separator-color=00000000
 
-inside-color=1d2021ee
-inside-clear-color=e78a4eee
-inside-ver-color=d3869bee
-inside-wrong-color=ea6962ee
+inside-color=1c1b19ee
+inside-clear-color=fbb829ee
+inside-ver-color=519f50ee
+inside-wrong-color=ef2f27ee
 
-ring-color=1d2021ff
-ring-clear-color=e78a4eff
-ring-ver-color=d3869bff
-ring-wrong-color=ea6962ff
+ring-color=1c1b19ff
+ring-clear-color=fbb829ff
+ring-ver-color=519f50ff
+ring-wrong-color=ef2f27ff
 
 #line-color=1d2021ee
 #line-clear-color=ffd204FF
@@ -36,10 +36,10 @@ ring-wrong-color=ea6962ff
 
 line-uses-inside
 
-text-color=d4be98ff
-text-clear-color=1d2021ff
-text-ver-color=1d2021ff
-text-wrong-color=1d2021ff
+text-color=fce8c3ff
+text-clear-color=1c1b19ff
+text-ver-color=1c1b19ff
+text-wrong-color=1c1b19ff
 
-bs-hl-color=ea6962ff
+bs-hl-color=ef2f27ff
 

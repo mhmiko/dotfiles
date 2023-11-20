@@ -1,21 +1,23 @@
 * {
   transition: 0.1s;
-  color: #d4be98;
+  color: #1c1b19;
+  font-family: "FiraCode Nerd Font";
 }
 #window {
-  background: #282828;
+  border: 2px solid #fce8c3;
+  background: #1c1b19;
 }
 #input {
   margin: 10px 10px 20px 10px;
-  padding: 15px;
-  background-color: #141617;
-  color: #d4be98;
+  padding: 10px;
+  background-color: #000000;
+  color: #fce8c3;
   box-shadow: none;
   border: none;
-  border-radius: 0;
+  border-radius: 0px;
 }
 #input:focus {
-  outline-color: #ea6962;
+  outline-color: #fce8c3;
   box-shadow: none;
   border: none;
 }
@@ -35,12 +37,12 @@ expander {
   color: #282828;
 }
 #entry:selected {
-  background-color: #d4be98;
-  color: #d4be98;
+  background-color: #fce8c3;
+  color: #fce8c3;
 }
 
 #text {
-  color: #d4be98;
+  color: #fce8c3;
 }
 
 #text:selected {
