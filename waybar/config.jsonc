@@ -24,10 +24,10 @@
       "on-click-right": "~/.config/scripts/clear-dunst-history.sh"
   },
   "clock": {
-    "format": "<span>{:%H:%M %a %d}</span>"
+    "format": "<span>{:%I:%M %p   %a %d}</span>"
   },
   "cpu": {
-    "format": "<span foreground='#89b4fa'></span>  {usage}%"
+    "format": "<span foreground='#89b4fa'></span>    {usage}%"
   },
   "battery": {
     "states": {
@@ -35,7 +35,7 @@
       "warning": 40,
       "critical": 15
     },
-    "format": "<span foreground='#a6e3a1'>{icon}</span>   {capacity}%",
+    "format": "<span foreground='#a6e3a1'>{icon}</span>     {capacity}%",
     "format-icons": ["", "", "", "", ""]
   },
   "network": {
