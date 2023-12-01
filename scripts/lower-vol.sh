@@ -7,6 +7,9 @@ if [ $new -lt 0 ]; then
 	new=0
 fi
 
-dunstify -a "Volume Control" -h string:x-dunst-stack-tag:ignore "Volume: ${new}%" --timeout=1000
+dunstify -a "Volume Control" \
+	-h string:x-dunst-stack-tag:ignore \
+	-h int:value:${new} \
+	"Volume: ${new}%" --timeout=1000
 
 pactl set-sink-volume @DEFAULT_SINK@ "${new}%"
