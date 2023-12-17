@@ -1,0 +1,4 @@
+audio.sync_bitrate_enumeration=4
+audio.play_bitrate_non_metered_migrated=true
+ui.hide_hpto=true
+audio.normalize_v2=false

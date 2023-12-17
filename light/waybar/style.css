@@ -1,0 +1,148 @@
+@define-color bg #000000;
+@define-color fg #f7f7f7;
+@define-color fg-light #777777;
+@define-color red #aae731;
+@define-color orange #e78a4e;
+@define-color yellow #cb9000;
+@define-color green #448c37;
+@define-color aqua #0083b2;
+@define-color blue #325cc0;
+@define-color purple #7a3e9d;
+
+
+
+* {
+  min-height: 0;
+  border-radius: 0;
+  font-family: "FiraCode Nerd Font";
+  font-size: 9pt;
+  /* font-weight: 500; */
+}
+
+tooltip {
+  background: @bg;
+  border-radius: 5px;
+}
+
+window#waybar {
+  background-color: transparent;
+  color: @red;
+  box-shadow: 6px 6px 6px 6px #797979;
+}
+
+window#waybar.solo {
+  background-color: @bg;
+  color: @red;
+}
+
+/*
+window#waybar.solo #workspaces button {
+  border-radius: 5px;
+}
+*/
+
+/*
+#mode {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+  background-color: @bg;
+  color: @red;
+}
+*/
+
+#network {
+  padding: 0px 10px 0px 10px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: @bg;
+  color: @fg;
+  box-shadow: 0px 0px 3px 1px #797979;
+}
+/* #network.wifi, */
+/* #network.ethernet { */
+/*   color: @green; */
+/* } */
+#network.linked {
+  color: @fg;
+}
+#network.disconnected,
+#network.disabled {
+  color: @red;
+}
+
+#pulseaudio,
+#cpu {
+  padding: 0 10px 0 10px;
+  margin: 5px;
+  color: @fg;
+  background-color: @bg;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 1px #797979;
+}
+#memory,
+#temperature,
+#backlight,
+#battery {
+  padding: 0 10px 0 10px;
+  margin: 5px;
+  color: @fg;
+  background-color: @bg;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 1px #797979;
+}
+
+#custom-playerctl {
+  padding: 0 10px 0 10px;
+  border-radius: 10px;
+  margin: 5px;
+  color: @fg;
+  background-color: @bg;
+  box-shadow: 0px 0px 3px 1px #797979;
+}
+
+#custom-notifications {
+  padding: 0 10px 0 10px;
+  margin: 5px;
+  color: @fg;
+  background-color: @bg;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 1px #797979;
+}
+
+#pulseaudio.muted {
+  background-color: @bg;
+  color: @red;
+}
+
+#clock {
+  padding: 0 10px 0 10px;
+  margin: 5px;
+  color: @fg;
+  background-color: @bg;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 1px #797979;
+}
+
+#workspaces {
+  padding: 0 10px 0 10px;
+  margin: 5px;
+  background-color: @bg;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 1px #797979;
+}
+
+#workspaces button {
+  color: @fg;
+}
+
+#workspaces button.active {
+  color: @yellow;
+}
+
+#workspaces button:hover{
+  background-color: @green;
+  color: @bg;
+}
+
+/* bottom waybar */
